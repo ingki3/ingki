@@ -1,0 +1,18 @@
+.test{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    animation: example 0.5s linear 5s infinite alternate;
+}
+
+@keyframes example {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: red;
+        transform: scale(2.0, 2.0);
+        transform: rotateZ(360deg);
+    }
+}
